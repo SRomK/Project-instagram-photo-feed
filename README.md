@@ -1,26 +1,26 @@
-# ![4Geeks Logo](http://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16) HTML Hello
+![4Geeks Logo](https://4geeksacademy.com//images/4geeks-logo.png)
+# Proyecto Instagram Post
+## Owners:
+### 	- Pedro Parra
+### 	- Sofia Romero
+## ¿En que consiste nuestro proyecto?
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/html-hello.git)
+En este proyecto hemos creado un archivo `index.html` al cual enlazamos el archivo `main.css` con el que aplicamos los estilos necesarios a todos los `<tags>`.
 
-The most basic boilerplate for any 4Geeks Academy student using the [gitpod.io](gitpod.io) coding editor.
+- El proyecto consiste en una imitación de un feed de post de instagram, que contiene:
 
-[![How to open html/css preview of my project in gitpod](https://github.com/4GeeksAcademy/Templates-Boilerplates/blob/master/assets/hello-html-intro.png?raw=true)](https://youtu.be/dfbDCMu_p-0)
+1. 		Header con el titulo en `<h1>`
+2. 		El contenido de la pagina se refleja en el centro del `<body>`
+3. 	 	Titulo del post y posición de la foto en el feed
+4. 		Imágen del post
+5. 		Texto del post 
 
-## What to do next?
+A partir de la estructura y diseño del post con ``CSS``, lo duplicamos y replicamos tres veces, uno debajo de otro.
 
-Create an `index.html` file with the [basic HTML structure](http://content.breatheco.de/lesson/what-is-html-learn-html#page-structure) and see it live by running a web-server using the following command:
-
+- La estructura del proyecto se ha realizado a partir de la implementación de diferentes `<div>` con los que estructuramos el esqueleto inicial dentro del `<div class="container">`.
+## ¿Como compilar el código?
+Para compilar el código es necesario introducir el siguiente comando en la terminal:
 ```sh
 $ pip3 install flask && python3 server.py
 ```
-
-- You can create as many HTML files as you want
-- You can also create CSS files and import them into your website using a `<link>` tag placed between the `<head></head>` tags, like this:
-
-```html
-<head>
-  ...
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
+ 

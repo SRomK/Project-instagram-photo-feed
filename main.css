@@ -1,0 +1,40 @@
+body{
+    margin: 0%;
+    background-color: grey;
+}
+header{
+    background-color: white;
+}
+h1{
+    margin: 0px;
+    padding-left: 600px;
+    background-color: white;
+}
+span{
+    color: grey;
+    padding-top: 20px;
+    font-size: 18pt;
+}
+h2{
+    margin-left: 10px;
+    width: 88%;
+}
+.post{
+    background-color: white;
+}
+.container{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    width:700px;
+}
+.headerPost{
+    display: flex;
+    background-color: white;
+}
+.imgPost{
+    width:100%;
+}
+.textPost{
+    margin: 10px;
+}
